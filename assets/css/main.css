@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+body {
+  background-color: var(--base);
+  color: var(--text);
+  font-family: "Funnel Display", sans-serif;
+  line-height: 1.5;
+  margin: auto;
+  max-width: 768px;
+}
+
+@media only screen and (max-width: 810px) {
+  body {
+    max-width: 90vw;
+  }
+
+  .hidden-on-mobile {
+    display: none;
+  }
+}
+
+header {
+  border-bottom: 1px solid var(--highlightLow);
+  margin-bottom: 1rem;
+}
+
+nav > ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline;
+  list-style: none;
+  margin-right: 10px;
+}
+
+ul {
+  padding-left: 15px;
+}
+
+li {
+  list-style: circle;
+}
+
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+time {
+  font-size: 14px;
+  color: var(--muted);
+}
+
+footer {
+  border-top: 1px solid var(--highlightLow);
+  margin-top: 1rem;
+  color: var(--muted);
+}
+
+p {
+  text-align: justify;
+  font-size: 15px;
+}
+
+b, strong {
+  color: var(--iris);
+}
+
+i, em {
+  color: var(--foam);
+}
+
+/*  */
+h1 {
+  color: var(--gold);
+}
+
+:is(h2, h3, h4, h5) {
+  color: var(--rose);
+}
+
+:is(h1, h2, h3, h4, h5) > a {
+  color: var(--pine);
+}
+
+h1 > a {
+  color: var(--love);
+}
+
+a {
+  color: var(--love);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: var(--rose);
+  text-decoration: underline;
+  transition: 0.3s;
+}
+
+:is(h1, h2, h3, h4, h5, h6)::before {
+  content: "#";
+  color: var(--muted);
+  margin-right: 10px;
+}
+
+header > h1::after {
+  content: "_";
+  color: var(--muted);
+
+  animation: blink-animation 1.5s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1.5s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+.inline-heading {
+  display: inline;
+  margin-left: 10px;
+}
+
+blockquote {
+  border-left: 5px solid var(--rose);
+  border-radius: 3px;
+  margin: 0px;
+  background-color: var(--surface);
+}
+
+blockquote > p {
+  margin-left: 10px;
+  padding: 3px;
+}
+
+pre,
+code {
+  background-color: var(--overlay) !important;
+  font-family: "Roboto Mono", monospace;
+  font-size: 14px;
+  border-radius: 3px;
+}
+
+pre {
+  padding: 10px 16px;
+  overflow: auto;
+}
+
+code {
+  color: var(--gold);
+  padding: 0px 3px;
+  word-wrap: break-word;
+}
+
+pre > code {
+  padding: 0;
+}
+
+code > span {
+  color: var(--iris);
+}
+
+table {
+  margin: auto;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 5px 10px;
+}
+
+th {
+  /*min-width: 180px;*/
+  background-color: var(--overlay);
+  text-align: center !important;
+}
+
+tr {
+  max-width: 500px;
+}
+
+tr:nth-child(odd) {
+  background-color: var(--highlightHigh);
+}
+
+tr:nth-child(even) {
+  background-color: var(--highlightMed);
+}
