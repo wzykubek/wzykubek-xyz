@@ -1,0 +1,20 @@
+<span>{{ site.Title }}</span>
+<div class='flex-space-between'>
+    {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+    <span>
+        {{ if .IsTranslated }}
+        {{ range .Translations }}
+        <a href="{{ .Permalink }}">
+            <span class='hidden-on-mobile'>
+                {{ .Site.Language.LanguageCode }}
+            </span>
+            {{ if eq .Site.Language.LanguageCode "en" }}
+            {{ ":gb:" | .RenderString }}
+            {{ else if eq .Site.Language.LanguageCode "pl" }}
+            {{ ":poland:" | .RenderString }}
+            {{ end }}
+        </a>
+        {{ end }}
+        {{ end }}
+    </span>
+</div>

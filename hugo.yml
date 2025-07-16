@@ -1,0 +1,81 @@
+baseURL: https://wzykubek.xyz
+title: Wiktor Zykubek
+copyright: Copyright © 2024-2025 Wiktor Zykubek
+
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: true
+pluralizeListTitles: false
+enableEmoji: true
+
+disableKinds: ["taxonomy", "term"]
+
+languages:
+  en:
+    contentDir: content/en
+    disabled: false
+    languageCode: en
+    languageDirection: ltr
+    languageName: English
+    weight: 1
+    params:
+      subtitle: Personal website
+    menus:
+      main:
+        - name: Home
+          pageRef: /
+          weight: 10
+        - name: Blog
+          pageRef: blog
+          weight: 20
+        - name: Projects
+          pageRef: projects
+          weight: 30
+        - name: Contact
+          pageRef: contact
+          weight: 40
+  pl:
+    contentDir: content/pl
+    disabled: false
+    languageCode: pl
+    languageDirection: ltr
+    languageName: Polski
+    weight: 2
+    params:
+      subtitle: Moja strona
+    menus:
+      main:
+        - name: Główna
+          pageRef: /
+          weight: 10
+        - name: Blog
+          pageRef: blog
+          weight: 20
+        - name: Projekty
+          pageRef: projects
+          weight: 30
+        - name: Kontakt
+          pageRef: contact
+          weight: 40
+
+params:
+  contact:
+    email: me@wzykubek.xyz
+  author:
+    name: Wiktor Zykubek
+    email: me@wzykubek.xyz
+
+outputs:
+  home:
+    - html
+  section:
+    - html
+    - rss
+
+markup:
+  highlight:
+    style: rose-pine
+
+module:
+  hugoVersion:
+    extended: false
+    min: 0.116.0
