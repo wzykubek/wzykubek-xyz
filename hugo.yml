@@ -9,7 +9,7 @@ enableEmoji: true
 
 languages:
   en:
-    contentDir: content/en 
+    contentDir: content/en
     disabled: false
     languageCode: en
     languageDirection: ltr
@@ -19,26 +19,23 @@ languages:
       subtitle: Personal website
     menus:
       main:
-      - name: Home
-        pageRef: / 
-        weight: 10
-      - name: Blog
-        pageRef: blog
-        weight: 20
-      - name: Projects
-        url: projects
-        weight: 30
-      - name: Music
-        url: https://lugnx.xyz
-        weight: 40
-      - name: Contact
-        pageRef: contact
-        weight: 50
+        - name: Home
+          pageRef: /
+          weight: 10
+        - name: Blog
+          pageRef: blog
+          weight: 20
+        - name: Projects
+          url: projects
+          weight: 30
+        - name: Contact
+          pageRef: contact
+          weight: 50
   pl:
-    contentDir: content/pl 
+    contentDir: content/pl
     disabled: false
-    languageCode: pl 
-    languageDirection: ltr 
+    languageCode: pl
+    languageDirection: ltr
     languageName: Polski
     weight: 2
     params:
@@ -46,7 +43,7 @@ languages:
     menus:
       main:
         - name: Główna
-          pageRef: / 
+          pageRef: /
           weight: 10
         - name: Blog
           pageRef: blog
@@ -54,9 +51,6 @@ languages:
         - name: Projekty
           url: projects
           weight: 30
-        - name: Muzyka
-          url: https://lugnx.xyz
-          weight: 40
         - name: Kontakt
           pageRef: contact
           weight: 50
@@ -67,7 +61,6 @@ params:
   author:
     name: Wiktor Zykubek
     email: me@wzykubek.xyz
-
 
 outputs:
   home:
