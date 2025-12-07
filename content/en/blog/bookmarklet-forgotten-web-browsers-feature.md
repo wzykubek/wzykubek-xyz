@@ -1,11 +1,13 @@
-+++
-title = "Bookmarklet - Forgotten Web Browsers' Feature"
-date = 2025-12-06T00:10:26+01:00
-draft = false
-layout = 'article'
-description = 'This article is about bookmarklets, short JavaScript snippets you can run quickly as browser bookmarks.'
-+++
-
+---
+title: Bookmarklet - Forgotten Web Browsers' Feature
+description: This article is about bookmarklets, short JavaScript snippets you can run quickly as browser bookmarks.
+keywords:
+tags:
+date: 2025-12-06T00:10:26+01:00
+modified: 2025-12-06T00:10:26+01:00
+layout: article
+draft: false
+---
 Modern web is a horrible place. "Surfing the web" is more like swimming in the pool full of plastic garbage nowadays. Greater part of new websites is created using many unnecessary JavaScript frameworks, libraries, and other dependencies. I don't say that is totally bad. There are many cases when they're useful, but even simple article only websites are fulfilled with unnecessary scripts without any particular reason.
 
 There are also web extensions. They provide many additional features, but they are slowing down the browser and have access to many private data you probably don't want to share. Sometimes the extension is made only for one task, e.g. *do some action on the website I'm currently on*. 

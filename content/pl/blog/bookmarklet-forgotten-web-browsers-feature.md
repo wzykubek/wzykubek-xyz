@@ -1,11 +1,13 @@
-+++
-title = "Bookmarklet - zapomniana funkcja przeglądarek internetowych"
-date = 2025-12-06T01:05:32+01:00
-draft = false
-layout = 'article'
-description = 'W tym artykule opisuję bookmarklety, czyli skrypty JS wykonywane po kliknięciu w zakładkę przeglądarki.'
-+++
-
+---
+title: Bookmarklet - zapomniana funkcja przeglądarek internetowych
+description: W tym artykule opisuję bookmarklety, czyli skrypty JS wykonywane po kliknięciu w zakładkę przeglądarki.
+keywords:
+tags:
+date: 2025-12-06T01:05:32+01:00
+modified: 2025-12-06T01:05:32+01:00
+layout: article
+draft: false
+---
 Obecnie internet to straszne miejsce, gdzie "surfowanie" to bardziej pływanie w morzu ~~plastikowych~~ NPM-owych odpadów. Przeważająca część nowych stron internetowych jest tworzona przy użyciu wielkich frameworków, bibliotek i innych w większości przypadków **zbędnych** zależności. Jest wiele zastosowań, gdzie takie rozwiązania są przydatne i wskazane, ale nawet strony, które serwują tylko proste i z założenia statyczne treści zawierają mnóstwo niepotrzebnych skryptów bez żadnego powodu.
 
 Oprócz tego mamy jeszcze całą masę rozszerzeń do przeglądarek. Dodają one przydatne funkcje, ale często spowalniają przeglądarkę i mają dostęp do prywatnych danych, których prawdopodobnie nikt z nas nie chce nikomu udostępniać. Ale co jeśli Ci powiem, że możesz usunąć część ze swoich rozszerzeń bez tracenia funkcjonalności, które oferują? We wszystkich przeglądarkach *głównego nurtu*, takich jak Firefox, Chrom(e)ium, Safari, oraz w ich mobilnych wersjach dostępna jest funkcja zwana [bookmarklet](https://en.wikipedia.org/wiki/Bookmarklet). Ta niesamowita technologia została udostępniona 25 lat temu i jest wspierana do dzisiaj.
