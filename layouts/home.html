@@ -1,18 +1,24 @@
-{{ define "main" }}
-<h1>{{ .Title }}</h1>
-{{ .Content }}
-{{ range site.Sections.ByWeight.Reverse }}
-<h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-<ul>
-    {{ range first 5 .Pages }}
-    {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
-    {{ $dateHuman := .Date | time.Format ":date_medium" }}
-    <li>
-        <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
-        -
-        <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
-    </li>
-    {{ end }}
-</ul>
-{{ end }}
-{{ end }}
+{{define "main"}}
+	<h1>
+		{{.Title}}
+	</h1>
+	{{.Content}}
+	{{range site.Sections.ByWeight.Reverse}}
+		<h2>
+			<a href="{{ .RelPermalink }}">{{.LinkTitle}}</a>
+		</h2>
+		<ul>
+			{{range first 5 .Pages}}
+				{{$dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00"}}
+				{{$dateHuman := .Date | time.Format ":date_medium"}}
+				<li>
+					<a href="{{ .RelPermalink }}">{{.LinkTitle}}</a>
+                    -
+					<time datetime="{{ $dateMachine }}">
+						{{$dateHuman}}
+					</time>
+				</li>
+			{{end}}
+		</ul>
+	{{end}}
+{{end}}

@@ -1,12 +1,12 @@
 <p class="flex-space-between">
-    <span>{{ .Site.Copyright }}</span>
-    {{ if eq .Site.Language.LanguageCode "en" }}
-    <span class="hidden-on-mobile">
-        Used <a href="https://rosepinetheme.com/">Rosé Pine</a> palette
-    </span>
-    {{ else if eq .Site.Language.LanguageCode "pl" }}
-    <span class="hidden-on-mobile">
-        Wykorzystano paletę kolorów <a href="https://rosepinetheme.com/">Rosé Pine</a>
-    </span>
-    {{ end }}
+	<span>{{.Site.Copyright}}</span>
+	{{if eq .Site.Language.LanguageCode "en"}}
+		<span class="hidden-on-mobile">
+            Used <a href="https://rosepinetheme.com/">Rosé Pine</a> palette
+        </span>
+	{{else if eq .Site.Language.LanguageCode "pl"}}
+		<span class="hidden-on-mobile">
+            Wykorzystano paletę kolorów <a href="https://rosepinetheme.com/">Rosé Pine</a>
+        </span>
+	{{end}}
 </p>
