@@ -8,7 +8,6 @@ description = 'Moje projekty, programy, biblioteki, aplikacje. Stworzone główn
 ## Aktywne
 Projekty, które aktywnie rozwijam. To głównie narzędzia, których używam na co dzień i mam interes w tym, by działały jak należy.
 
-+ [Feedboy](https://github.com/wzykubek/feedboy) - Proste API do generowania feedów RSS, dla stron, które z różnych przyczyn ich nie udostępniają. Narzędzie bazuje na szablonach i nie wymaga wiedzy programistycznej. Wystarczy umieć znaleźć odpowiedni selektor CSS i zapisać go w pliku `yaml`.
 + [Sieveman](https://github.com/wzykubek/sieveman) - Klient ManageSieve napisany w Go. Umożliwia zarządzanie regułami filtrującymi na serwerach pocztowych, które wspierają ten protokół. Działa w dwóch trybach: CLI oraz interaktywnym ze składnią znaną z popularnych narzędzi konsolowych.
 Zbudowany w modularny sposób i może być również wykorzystany jako biblioteka dla zewnętrznych narzędzi.
 + [Licensmith](https://github.com/wzykubek/licensmith) - Narzędzie konsolowe do generowania plików *LICENSE*. Integruje się z konfiguracją Git i podstawia z niej odpowiednie dane, takie jak adres e-mail oraz nazwisko.

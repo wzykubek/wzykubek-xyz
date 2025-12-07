@@ -8,7 +8,6 @@ description = "My personal projects I've created and published. Mainly written i
 ## Active
 There are projects I'm currently working on or keep an eye on issues. Mostly tools I just use by my own, so I have an interest to improve them.
 
-+ [Feedboy](https://github.com/wzykubek/feedboy) - Simple RSS bridge API, aiming to be lightweight and easy to use. Feeds are generated based on templates, so anyone with basic HTML knowledge can create their own feeds without effort.
 + [Sieveman](https://github.com/wzykubek/sieveman) - ManageSieve protocol client written in Go. Can be used in two modes: CLI and interactive.
 Built in modular approach and can be used as library as well.
 + [Licensmith](https://github.com/wzykubek/licensmith) - Command line utility for generating *LICENSE* files. It respects your Git configuration.
