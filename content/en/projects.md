@@ -8,14 +8,14 @@ description = "My personal projects I've created and published. Mainly written i
 ## Active
 There are projects I'm currently working on or keep an eye on issues. Mostly tools I just use by my own, so I have an interest to improve them.
 
-+ [Sieveman](https://github.com/wzykubek/sieveman) - ManageSieve protocol client written in Go. Can be used in two modes: CLI and interactive.
++ [Sieveman](https://codeberg.org/wzykubek/sieveman) - ManageSieve protocol client written in Go. Can be used in two modes: CLI and interactive.
 Built in modular approach and can be used as library as well.
-+ [Licensmith](https://github.com/wzykubek/licensmith) - Command line utility for generating *LICENSE* files. It respects your Git configuration.
++ [Licensmith](https://codeberg.org/wzykubek/licensmith) - Command line utility for generating *LICENSE* files. It respects your Git configuration.
 
 ## Archived
 Projects that I've created and no longer maintain, but decided to keep for future reference. Keep in mind that this software can be vulnerable, because it's not updated for a long time.
 
-+ [rEFInd Colorizer](https://github.com/wzykubek/refind-colorizer) - Simple tool for creating custom colorschemes for [rEFInd](https://www.rodsbooks.com/refind/) bootloader.
++ [rEFInd Colorizer](https://codeberg.org/wzykubek/refind-colorizer) - Simple tool for creating custom colorschemes for [rEFInd](https://www.rodsbooks.com/refind/) bootloader.
 + [OpenFM Web](https://github.com/wzykubek/openfm-web) - Web client for Polish internet radio. Built with pure JavaScript.
 + [OpenFM Qt](https://github.com/wzykubek/openfm-qt) - Desktop client for the same radio.
 + [Telegrask](https://github.com/wzykubek/telegrask) - Flask-inspired Telegram bot microframework for Python.
